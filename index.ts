@@ -1,4 +1,4 @@
-import {Gender} from "./types/gender";
+import {Gender} from "./types/index";
 
 
 console.log(Gender[Gender.Woman]);

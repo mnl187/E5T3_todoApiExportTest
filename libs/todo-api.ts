@@ -1,4 +1,6 @@
-class TodoApi {
+import {SingleTodo, SingleTodoCreate} from "../types";
+
+export class TodoApi {
     private readonly url = 'https://jsonplaceholder.typicode.com/todos';
 
     async get(id: number): Promise<SingleTodo> {

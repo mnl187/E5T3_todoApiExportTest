@@ -1,4 +1,4 @@
-interface SingleTodo {
+export interface SingleTodo {
     id: number;
     userId: number;
     title: string;
@@ -6,4 +6,4 @@ interface SingleTodo {
 }
 
 
-type SingleTodoCreate = Omit<SingleTodo, 'id'>;
+export type SingleTodoCreate = Omit<SingleTodo, 'id'>;
